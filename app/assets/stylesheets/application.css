@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-color: #34314c;
+  text-align: center;
+}
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  font-color: #34314c;
+}
+.letters {
+  font-size: 50px;
+  font-weight: 700;
+  color: #6AAFE6;
+}
+.grid {
+  text-align: center;
+}
+.answer {
+  text-align: center;
+}
+.btn {
+  margin: 40px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #8EC0E4;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}

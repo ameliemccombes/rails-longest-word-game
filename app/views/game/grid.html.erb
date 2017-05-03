@@ -1,0 +1,18 @@
+<h1>Welcome to the longest word-game !</h1>
+
+<div class="grid">
+  <p>Shuffle your grid</p>
+  <a href="/grid" class="btn">Play</a>
+  <p class="letters"><%= @new_grid.join(" . ") %></p>
+</div>
+
+<div class="answer">
+  <p>What's your best shot?</p>
+
+  <form action="/score" method="get">
+    <input type="text" name="guess">
+    <input type="hidden" value=<%=@start_time%> name="start_time">
+    <input type="hidden" value=<%=@new_grid.join%> name="grid">
+    <input type="submit" value="Go" class="btn">
+  </form>
+</div>
